@@ -1,7 +1,7 @@
 {
   "name": "mock",
   "version": "1.0.0",
-  "description": "",
+  "description": "Quickly mock REST APIs locally",
   "main": "index.js",
   "preferGlobal": true,
   "bin": "./index.js",
@@ -9,9 +9,9 @@
     "dev": "nodemon index.js",
     "start": "node ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["api", "mock", "rest", "test", "server"],
+  "author": "Elliot40404",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
