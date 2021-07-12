@@ -10,7 +10,7 @@ const cors = require("cors");
 app.use('*',cors({
 	origin: "*",
 }));
-
+const open = require('open');
 // *SERVE THE SPA
 app.use(express.static(__dirname + "/public/client/dist"));
 
@@ -130,5 +130,9 @@ app.post("/api/:id/:route", (req, res) => {
 // * Start the server
 
 app.listen(process.env.PORT || 8008, () => {
-	console.log("Listening on http://localhost:3000");
+	console.log("🚀 MOCK SERVER running on http://localhost:8008");
+	console.log("✨ Method for all requests is POST");
+	console.log("⚡ Get all users: http://localhost:8008/routes");
+	console.log("⚡ Get end points for a user: http://localhost:8008/<user-id>");
+	open('http://localhost:8008');
 });
