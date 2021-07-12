@@ -1,5 +1,5 @@
 {
-  "name": "mock",
+  "name": "mock-api",
   "version": "1.0.0",
   "description": "Quickly mock REST APIs locally",
   "main": "index.js",
@@ -9,7 +9,13 @@
     "dev": "nodemon index.js",
     "start": "node ."
   },
-  "keywords": ["api", "mock", "rest", "test", "server"],
+  "keywords": [
+    "api",
+    "mock",
+    "rest",
+    "test",
+    "server"
+  ],
   "author": "Elliot40404",
   "license": "MIT",
   "dependencies": {
