@@ -129,6 +129,6 @@ app.post("/api/:id/:route", (req, res) => {
 
 // * Start the server
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT || 8008, () => {
 	console.log("Listening on http://localhost:3000");
 });
