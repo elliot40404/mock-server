@@ -1,12 +1,13 @@
 {
-  "name": "mock-server",
+  "name": "mock",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "preferGlobal": true,
   "bin": "./index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node ."
   },
   "keywords": [],
   "author": "",

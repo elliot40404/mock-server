@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const express = require("express");
 const app = express();
 app.use(express.urlencoded({ extended: false, limit: "150mb" }));
