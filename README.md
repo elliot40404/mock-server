@@ -103,8 +103,8 @@ Install mock-ui with npm
 	"route": "users",
 	"response": {
 		"name": "Jane Doe",
+    "email": "jane@email.com",
 		"age": 25
-        "email": "jane@email.com"
 	}
 }
 ```
