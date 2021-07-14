@@ -9,6 +9,8 @@
 
 [![Size](https://img.shields.io/github/stars/elliot40404/mock-server)](https://github.com/elliot40404)
 
+[![Size](https://img.shields.io/npm/dw/mock-ui?style=for-the-badge)](https://github.com/elliot40404)
+
 
 # MOCK SERVER
 
