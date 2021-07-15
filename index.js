@@ -23,8 +23,8 @@ app.get("*", (req, res) => {
 
 // * Function declarations
 
-const folder = __dirname + "/database";
-const file = __dirname + "/database/db.json";
+const folder = "../mock-ui";
+const file = "../mock-ui/db.json";
 
 if (!fs.existsSync(folder)) {
 	fs.mkdirSync(folder);
@@ -137,5 +137,5 @@ app.listen(process.env.PORT || 8008, () => {
 	console.log(
 		"⚡ Get end points for a user: http://localhost:8008/<user-id>"
 	);
-	// open('http://localhost:8008');
+	open('http://localhost:8008');
 });
