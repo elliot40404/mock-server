@@ -16,12 +16,29 @@
 
 Easily mock server responses for apps with an easy to use GUI on your local device.
 
+## Whats New?
+
+*Please update to new the newest version to have a better experience.*
+
+- **Data Persistence.**
+- **Better Error Handling.**
+
+# Upcoming features
+
+- Support for more HTTP verbs.
+- Switch between profiles from UI.
+- Inline JSON Editor.
+- Integration with your Projects.
+- VSCODE extension.
+- GRAPHQL support
+- More flexibility.
 
 ## Features
 
 - Interactive UI
 - Working API in 3 clicks
 - Runs Locally
+- Data Persistence
 - Cross platform
 
   
@@ -177,4 +194,4 @@ Contributions are always welcome!
 
 **Server:** Node, Express
 
-  
+**Checkout https://chaos-8ef21.web.app/ for an web editor**
