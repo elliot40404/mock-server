@@ -134,5 +134,5 @@ app.listen(process.env.PORT || 8008, () => {
 	console.log("✨ Method for all requests is POST");
 	console.log("⚡ Get all users: http://localhost:8008/routes");
 	console.log("⚡ Get end points for a user: http://localhost:8008/<user-id>");
-	open('http://localhost:8008');
+	// open('http://localhost:8008');
 });

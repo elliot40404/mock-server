@@ -6,8 +6,11 @@
   "preferGlobal": true,
   "bin": "./index.js",
   "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "nodemon index.js --ignore database/",
     "start": "node ."
+  },
+  "nodemonConfig": {
+    "ignore": ["database/*", "db.json"]
   },
   "keywords": [
     "api",
